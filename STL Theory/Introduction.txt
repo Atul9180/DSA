@@ -1,0 +1,14 @@
+STL: Standard template library having:
+ > Containers: to store values at some memory
+ > Iterators: to iterate in lists
+ > Alogrithms: predefined alogo functions to make work eazy eg: bst
+ > Functors: Classes which can act as functions.
+
+ =======CONTAINERS============
+ Containers types:
+ 1. Sequential Containers: Vectors,Stack,Queue,pairs
+ 2. Ordered Containers: Maps,MultiMap,Set,MultiSet...Not contiguous so can't use iterator (*it+1) instead use (*it++)
+ 3. unordered Conatainers: unordered Map, unordered Set
+ 4. Nested Conatainers: Conatiner within container. vector<vector <int>>, map<int,vector <int>>, set<pair<int,string>>, vector<map,<int,set<int>>>
+ 5. Iterators: Similar to pointers, points to memory address of containers. begin(),end(), vector <int>::iterator 
+ 6. Alogrithms: upper bound,lower bound,sort(cmparators), max,min,accumulate,reverse,count,find, next_permutation,prev_permutation
